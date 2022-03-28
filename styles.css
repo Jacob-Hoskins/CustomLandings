@@ -70,3 +70,30 @@ a{
     color: white;
     text-decoration: none;
 }
+
+/* why section */
+.why-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-why{
+    display: flex;
+    flex-shrink: 2;
+    justify-content: center;
+    gap: 10%;
+}
+
+.why-img-size{
+    width: 25%;
+}
+
+.why-text{
+    display: flex;
+    justify-content: space-evenly;
+    flex: 1;
+    width: 60%;
+    gap: 20%;
+    
+}
