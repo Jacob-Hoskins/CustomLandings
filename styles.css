@@ -24,12 +24,15 @@ header{
     gap: 10px;
 }
 
+
 .logo{
     font-size: 36px;
 }
 
 nav{
-    font-size: 28px;
+    display: flex;
+    
+    flex-shrink: 2;
 }
 
 ul{
@@ -58,7 +61,7 @@ li{
 
 .header-img{
     width: 50vw;
-    height: 50vh;
+    height: 40vh;
     border-radius: 15px;
 }
 
