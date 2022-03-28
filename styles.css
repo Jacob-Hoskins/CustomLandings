@@ -29,6 +29,10 @@ header{
     font-size: 36px;
 }
 
+.img{
+    padding-right: 2%;
+}
+
 nav{
     display: flex;
     
@@ -138,4 +142,28 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+/* Contact */
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1d7d81;
+    border-radius: 25px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 10%;
+    padding: 5%;
+    color: white;
+}
+
+/* footer */
+footer{
+    background-color: #213458;
+    text-align: center;
+    margin-top:  5%;
+    color: white;
+    padding: 3%;
 }
